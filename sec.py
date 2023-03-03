@@ -17,9 +17,9 @@ for i in range(x):
         break
 
 
-if find : ##i>x
+if find : 
      print("the name exist in the file the postion of your name is ",pos)
-else :
+else :##i>x
         add = input("\n 1 - if you want to add the mame to the list enter 1 \n 2 - else enter  anything else 1 \n");
         if(add=="1"): 
              with open("start.txt","a") as e :
